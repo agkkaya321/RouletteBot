@@ -1,42 +1,40 @@
 # RouletteBot
 
 ## Description
-RouletteBot est une extension web qui automatise les mises sur un site de casino en ligne en suivant une stratégie basée sur une martingale utilisant les tiers. En complément, des scripts en Python permettent de tester cette stratégie à l'aide de la bibliothèque `random`.
+RouletteBot is a web extension that automates betting on an online casino site using a strategy based on a tiered martingale system. Additionally, Python scripts are provided to test this strategy using the `random` library.
 
-L'objectif du projet était d'analyser la viabilité de cette approche et d'en tirer des conclusions sur sa rentabilité.
+The project's goal was to analyze the viability of this approach and determine its profitability.
 
-## Fonctionnalités
-- **Extension Web** : Automatise les mises sur le site de casino en ligne selon la stratégie martingale.
-- **Scripts Python** : Permettent de tester la stratégie avec des simulations aléatoires.
-- **Analyse des Résultats** : Évaluation statistique des gains et pertes pour déterminer la rentabilité de la stratégie.
+## Features
+- **Web Extension**: Automates betting on the online casino site according to the martingale strategy.
+- **Python Scripts**: Allows testing of the strategy with random simulations.
+- **Results Analysis**: Statistical evaluation of gains and losses to assess the profitability of the strategy.
 
-## Résultats de l'étude
-Après plusieurs simulations, il a été conclu que cette stratégie **n'est pas rentable** sur le long terme. Dans les meilleurs cas, la probabilité de réaliser un gain de 30 % était de **0.61** (61 %), ce qui ne permet pas de garantir un profit durable.
+## Study Results
+After multiple simulations, it was concluded that this strategy **is not profitable** in the long term. In the best cases, the probability of achieving a 30% gain was **0.61** (61%), which does not guarantee a sustainable profit.
 
 ## Installation
-### Extension Web
-1. Clonez le dépôt :
+### Web Extension
+1. Clone the repository:
    ```sh
-   git clone https://github.com/votreutilisateur/RouletteBot.git
+   git clone https://github.com/yourusername/RouletteBot.git
    ```
-2. Chargez l'extension manuellement dans votre navigateur :
-   - Allez dans `chrome://extensions/` (ou équivalent pour votre navigateur).
-   - Activez le mode développeur.
-   - Cliquez sur "Charger l'extension non empaquetée" et sélectionnez le dossier du projet.
+2. Load the extension manually into your browser:
+   - Go to `chrome://extensions/` (or the equivalent for your browser).
+   - Enable developer mode.
+   - Click "Load unpacked extension" and select the project folder.
 
-### Scripts Python
-1. Installez les dépendances :
+### Python Scripts
+1. Install dependencies:
    ```sh
    python rouletteTest.py
    ```
 
-## Avertissement
-⚠️ **Ce projet est uniquement à but éducatif**. L'utilisation de bots et de scripts automatisés sur les sites de casino en ligne peut être contraire à leurs conditions d'utilisation et entraîner une interdiction de compte. De plus, les jeux de hasard comportent un risque élevé de perte financière.
+## Disclaimer
+⚠️ **This project is for educational purposes only**. Using bots and automated scripts on online casino sites may violate their terms of service and result in account bans. Additionally, gambling involves a high risk of financial loss.
 
-## Licence
-Ce projet est distribué sous la licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+## License
+This project is distributed under the MIT license. See the `LICENSE` file for more details.
 
 ---
-
-
 
