@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Titre de la page Extension",
+  "version": "1.1",
+  "description": "Affiche le titre de la page en haut à droite.",
+  "permissions": [],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
